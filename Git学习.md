@@ -19,6 +19,8 @@
 
 `git reset --hard commitID`  回退版本
 
+`git reset --hard origin/master` 强制用远程master的代码覆盖本地代码
+
 ​	hard 不保存所有变更
 
 ​	soft 保留变更且变更内容处于Staged（即已经commit）
