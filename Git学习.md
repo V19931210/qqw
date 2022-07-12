@@ -63,6 +63,15 @@
 
 `git push --set-upstream origin 分支名`
 
+分支改名
+本地分支改名
+git branch -m oldName newName 
+远程分支改名
+git branch -m oldName newName 重命名远程分支对应的本地分支
+git push --delete origin oldName 删除远程分支
+git push origin newName 上传新命名的本地分支
+git branch --set-upstream-to origin/newName 把修改后的本地分支与远程分支关联
+
 
 
 忽略文件
