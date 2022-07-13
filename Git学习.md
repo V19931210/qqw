@@ -83,7 +83,7 @@
 
 `git remote set-url origin repository_url` 更改origin所连接的仓库 更改后的仓库为repository_url
 
-`git remote set-url origin https://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@github.com/V19931210/REPO.git` 携带Token
+`git remote set-url origin https://accessToken@github.com/V19931210/REPO.git` github携带Token
 
 `git remote remove origin` 移除远程仓库origin
 
