@@ -79,6 +79,8 @@
 
 `git remote` 查看remote
 
+`git remote set-url origin repository_url`
+
 `git remote add origin git@github.com:git_username/repository_name.git`
 
 `git remote remove origin`
