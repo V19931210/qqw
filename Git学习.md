@@ -1,9 +1,9 @@
 # Git常用命令
 
 
+## 基本命令
 
 `git init` 初始化仓库
-
 
 `git status` 查看当前状态
 
@@ -12,6 +12,7 @@
 `git commit -m "注释内容"` 提交至版本库
 
 
+## log 回退版本
 
 `git log` 查看commitID
 
@@ -29,17 +30,17 @@
 
 `git reflog` 查看最新的commitID
 
-`git pull` 拉去线上仓库最新版本
 
-
+## 克隆 拉取 推送
 
 `git clone 仓库地址` 克隆线上仓库
+
+`git pull` 拉去线上仓库最新版本
 
 `git push`  提交到线上仓库
 
 
-
-分支相关指令
+## 分支
 
 `git branch` 查看分支
 
@@ -58,18 +59,13 @@
 `git merge 被合并的分支名` 合并分支 
 
 
-
-分支git push失败 需先设置上流分支
+## 分支git push失败 需先设置上流分支
 
 `git push --set-upstream origin 分支名`
 
-分支改名
+## 分支改名
 
-本地分支改名
-
-`git branch -m oldName newName `
-
-远程分支改名
+ 远程分支改名步骤
 
 `git branch -m oldName newName` 重命名远程分支对应的本地分支
 
@@ -79,9 +75,16 @@
 
 `git branch --set-upstream-to origin/newName` 把修改后的本地分支与远程分支关联
 
+## 本地仓库与远程分支的连接与断开 
+
+`git remote` 查看remote
+
+`git remote add origin git@github.com:git_username/repository_name.git`
+
+`git remote remove origin`
 
 
-忽略文件
+## 忽略文件
 
 在当前目录下通过Git Bash 的touch指令 创建.gitignore文件 `touch .gitignore`
 
