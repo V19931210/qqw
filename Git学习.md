@@ -79,11 +79,13 @@
 
 `git remote` 查看remote
 
-`git remote set-url origin repository_url`
+`git remote add origin repository_url` 添加远程仓库origin 连接的仓库为repository_url
 
-`git remote add origin git@github.com:git_username/repository_name.git`
+`git remote set-url origin repository_url` 更改origin所连接的仓库 更改后的仓库为repository_url
 
-`git remote remove origin`
+`git remote set-url origin https://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@github.com/V19931210/REPO.git` 携带Token
+
+`git remote remove origin` 移除远程仓库origin
 
 
 ## 忽略文件
